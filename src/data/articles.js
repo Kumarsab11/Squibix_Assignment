@@ -1,0 +1,28 @@
+export const sampleArticles = [
+  {
+    id: "1",
+    title: "Introduction to React",
+    excerpt: "Learn the basics of React.js and how it works.",
+    content: "React is a JavaScript library for building user interfaces...",
+    author: { name: "John Doe", avatar: "path/to/avatar1.png" },
+    category: "Technology",
+    readingTime: "5 min",
+    createdAt: "2025-01-01",
+    lastEditedAt: null,
+    tags: ["React", "JavaScript"],
+    isEdited: false,
+  },
+  {
+    id: "2",
+    title: "Mastering JavaScript",
+    excerpt: "Deep dive into advanced JavaScript concepts.",
+    content: "JavaScript is a versatile programming language used for...",
+    author: { name: "Jane Smith", avatar: "path/to/avatar2.png" },
+    category: "Programming",
+    readingTime: "10 min",
+    createdAt: "2025-01-05",
+    lastEditedAt: "2025-01-10",
+    tags: ["JavaScript", "ES6"],
+    isEdited: true,
+  },
+];
